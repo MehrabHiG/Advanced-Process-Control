@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     height="89.8763mm"
+     viewBox="0 0 580.8 174"
+     width="300mm">
+   <g fill="none" fill-rule="evenodd" stroke="black" stroke-linecap="square"
+      stroke-linejoin="bevel"
+      stroke-width="1">
+      <g fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,0,0)">
+         <path d="M0,0 L484,0 L484,145 L0,145 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+      
+      <g fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,2,2)">
+         <path d="M0,0 L33.0469,0 L33.0469,14 L0,14 L0,0 z" fill-rule="evenodd"
+               vector-effect="none"/>
+      </g>
+      
+      
+      
+      <g fill="#61bdfc" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,202,45)">
+         <path d="M0,0 L155,0 L155,84 L0,84 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,205,57)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="9"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="32"
+               x="0"
+               xml:space="preserve"
+               y="3.5">Feedback</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,205,87)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="9"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="46.3438"
+               x="0"
+               xml:space="preserve"
+               y="3.5">Thickness ref.</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,205,117)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="9"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="54.9531"
+               x="0"
+               xml:space="preserve"
+               y="3.5">Rolling force ref.</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,354,67)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="9"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="7.17188"
+               x="-7.17188"
+               xml:space="preserve"
+               y="3.5">xv</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,354,107)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="9"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="5.9375"
+               x="-5.9375"
+               xml:space="preserve"
+               y="3.5">fx</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,202.5,45.5)">
+         <path d="M0,0 L155,0 L155,84 L0,84 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+      
+      <a cursor="pointer" fill="none" href="" opacity="1" stroke="#000000"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         target="_blank"
+         transform="matrix(1,0,0,1,247.828,131)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="60.3438"
+               x="1.5"
+               xml:space="preserve"
+               y="10">LQ Controller 3</text>
+      </a>
+      
+      <g fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,72,52)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,82,57)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="4.375"
+               x="-2.1875"
+               xml:space="preserve"
+               y="4">1</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,72.5,52.5)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,60.1328,64)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="40.7344"
+               x="1.5"
+               xml:space="preserve"
+               y="10">Feedback</text>
+      </g>
+      
+      <g fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,72,82)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,82,87)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="4.375"
+               x="-2.1875"
+               xml:space="preserve"
+               y="4">2</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,72.5,82.5)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,52.1406,94)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="56.7188"
+               x="1.5"
+               xml:space="preserve"
+               y="10">Thickness ref.</text>
+      </g>
+      
+      <g fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,72,112)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,82,117)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="4.375"
+               x="-2.1875"
+               xml:space="preserve"
+               y="4">3</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,72.5,112.5)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,47.3516,124)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="66.2969"
+               x="1.5"
+               xml:space="preserve"
+               y="10">Rolling force ref.</text>
+      </g>
+      
+      <g fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,462,62)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,472,67)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="4.375"
+               x="-2.1875"
+               xml:space="preserve"
+               y="4">1</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,462.5,62.5)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,463.938,74)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="13.125"
+               x="1.5"
+               xml:space="preserve"
+               y="10">xv</text>
+      </g>
+      
+      <g fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,462,102)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,472,107)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="4.375"
+               x="-2.1875"
+               xml:space="preserve"
+               y="4">2</text>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,462.5,102.5)">
+         <path d="M5,0 L15,0 C17.7614,0 20,2.23858 20,5 C20,7.76142 17.7614,10 15,10 L5,10 C2.23858,10 0,7.76142 0,5 C0,2.23858 2.23858,0 5,0 z"
+               fill-rule="nonzero"
+               vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,464.617,114)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="10"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="11.7656"
+               x="1.5"
+               xml:space="preserve"
+               y="10">fx</text>
+      </g>
+      
+      <g fill="#000000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,202,57)">
+         <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,2,2)">
+         <path d="M90.5,55.5 L192.5,55.5" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,97,58.5)">
+         <text fill="#000000" fill-opacity="1" font-family="Arial" font-size="9"
+               font-style="normal"
+               font-weight="400"
+               stroke="none"
+               textLength="37.125"
+               x="1"
+               xml:space="preserve"
+               y="10">Feedback</text>
+      </g>
+      
+      <g fill="#000000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,202,87)">
+         <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,2,2)">
+         <path d="M90.5,85.5 L192.5,85.5" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,97,88.5)">
+         <rect fill="yellow" fill-opacity="1" height="12.5854" id="tps_Ref. thickness_rect"
+               initial-width="57.3666"
+               padding="1.7927"
+               stroke="gray"
+               stroke-opacity="1"
+               width="57.3666"
+               x="-0.79271"
+               y="1"/>
+         <text SLType="real_T" fill="#000000" fill-opacity="1" font-family="Arial"
+               font-size="9"
+               font-style="normal"
+               font-weight="400"
+               id="tps_Ref. thickness"
+               stroke="none"
+               x="1"
+               xml:space="preserve"
+               y="10">Ref. thickness</text>
+      </g>
+      
+      <g fill="#000000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,202,117)">
+         <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,2,2)">
+         <path d="M90.5,115.5 L192.5,115.5" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="square"
+         stroke-linejoin="bevel"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,97,118.5)">
+         <rect fill="yellow" fill-opacity="1" height="13.3052"
+               id="tps_Ref. rolling force_rect"
+               initial-width="68.8833"
+               padding="2.1526"
+               stroke="gray"
+               stroke-opacity="1"
+               width="68.8833"
+               x="-1.1526"
+               y="1"/>
+         <text SLType="real_T" fill="#000000" fill-opacity="1" font-family="Arial"
+               font-size="9"
+               font-style="normal"
+               font-weight="400"
+               id="tps_Ref. rolling force"
+               stroke="none"
+               x="1"
+               xml:space="preserve"
+               y="10">Ref. rolling force</text>
+      </g>
+      
+      <g fill="#000000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,462,67)">
+         <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,2,2)">
+         <path d="M355.5,65.5 L452.5,65.5" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+      
+      <g fill="#000000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0"
+         transform="matrix(1,0,0,1,462,107)">
+         <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+      </g>
+      
+      <g fill="none" opacity="1" stroke="#000000" stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke-miterlimit="2"
+         stroke-opacity="1"
+         stroke-width="1"
+         transform="matrix(1,0,0,1,2,2)">
+         <path d="M355.5,105.5 L452.5,105.5" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+   </g>
+   <!--generated on windows @ 2021-08-27 01:33:34 W. Europe Daylight Time--></svg>

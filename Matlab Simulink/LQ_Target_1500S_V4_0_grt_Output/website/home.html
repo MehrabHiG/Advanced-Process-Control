@@ -1,0 +1,247 @@
+﻿<!--Prototyp Simulink Web Visualisierung-->
+<!DOCTYPE html>
+<html id="Page" data-ng-app="SWV" data-ng-controller="ctrl-basic-operations">
+<head>
+
+    <!-- MetaData Area -->
+    <title id="id-title-website">{{ModelName}}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="cache-control" content="no-cache">
+    <!-- MetaData Area End -->
+    <!-- Style Sheet Area -->
+    <link rel="stylesheet" href="css/S7_framework.css">
+    <link rel="stylesheet" href="css/SWV_ParameterSetting.css">
+    <link rel="stylesheet" href="css/SWV_SimulinkScope.css">
+    <!-- Style Sheet Area End -->
+    <!-- Scripts Libraries -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.svg.min.js"></script>
+    <script src="js/jquery.flot.min.js"></script>
+    <script src="js/jquery.flot.time.js"> </script>
+    <script src="js/jquery.flot.axislabels.js"> </script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-sanitize.min.js"></script>
+    <script src="js/module-SWV.js"></script>
+    <script src="js/ctrl-basic-operations.js"></script>
+    <script src="js/ctrl-parameter-setting.js"></script>
+    <script src="js/ctrl-trace-handler.js"></script>
+    <script src="js/ctrl-model-svg.js"></script>
+    <script src="js/Wrapper_SVG_Angular.js"></script>
+    <!-- Scripts Libraries End -->
+    <script>
+        function selectedLanguage() {
+            setLangClass(document.getElementById("mLanguage").value);
+        }
+        function setLangClass(lan) {
+			document.getElementById("Main").className = lan;
+        }
+		function setAutoScale(checkbox) {
+			if(checkbox.checked == true){
+				document.getElementById("maxY").setAttribute("disabled", "disabled");
+				document.getElementById("minY").setAttribute("disabled", "disabled");
+			}else{
+				document.getElementById("maxY").removeAttribute("disabled");
+				document.getElementById("minY").removeAttribute("disabled");
+		   }
+		}
+        function setSelectedLangOption(lan) {
+			var el = document.getElementById("mLanguage");
+			el.value = lan;
+			el.onchange();
+        }
+		function GetURLParameter(sParam) {
+			var sPageURL = window.location.search.substring(1);
+			var sURLVariables = sPageURL.split('&');
+			for (var i = 0; i < sURLVariables.length; i++) {
+				var sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] == sParam) {
+					return sParameterName[1];
+				}
+			}
+			return "";
+		}
+		function setLanguageParam() {
+			var lan = GetURLParameter('lan');
+			if (lan == "") {
+				lan = "en";
+			}
+			setSelectedLangOption(lan);
+		}
+    </script>
+
+    <style type="text/css">
+        body.de [lang="en"] {
+            display: none;
+        }
+        body.en [lang="de"] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body id="Main" class="en" onload="setLanguageParam()">
+
+    <!-- Header Area -->
+    <div id="header_img"></div>
+    <div id="header_title"></div>
+    <!-- Header Area End -->
+    <!-- Menu Area -->
+    <div id="menu">
+        <ul>
+            <select id="mLanguage" onchange="selectedLanguage()">
+                <option id="lan_en" value="en">EN
+                <option id="lan_de" value="de">DE
+            </select>
+
+			<li lang="en"><a href='home.html?lan=en'>Home</a></li>
+			<li lang="de"><a href='home.html?lan=de'>Home</a></li>
+            <li lang="en" data-ng-show="ShowMenueP"><a data-ng-click="openParams('Params','all',false);">Params</a></li>
+            <li lang="de" data-ng-show="ShowMenueP"><a data-ng-click="openParams('Params','all',false);">Parameter</a></li>
+            <li lang="en" data-ng-show="ShowMenueWSP"><a data-ng-click="openParams('WorkspaceParams','default',false);">WorkspaceParams</a></li>
+            <li lang="de" data-ng-show="ShowMenueWSP"><a data-ng-click="openParams('WorkspaceParams','default',false);">Workspace Parameter</a></li>
+            <li lang="en" data-ng-show="ShowMenueMWSP"><a data-ng-click="openParams('ModelWorkspaceParams','default',false);">ModelWorkspaceParams</a></li>
+            <li lang="de" data-ng-show="ShowMenueMWSP"><a data-ng-click="openParams('ModelWorkspaceParams','default',false);">Model Workspace Parameter</a></li>
+            <li lang="en" data-ng-show="ShowBackSvgFunction"><a data-ng-click="openPreviousSvg();">Back to previous system</a></li>
+            <li lang="de" data-ng-show="ShowBackSvgFunction"><a data-ng-click="openPreviousSvg();">Zurück zum vorherigen System</a></li>
+            <li>
+                <a data-ng-click="openSvg(CurrentSvgModel);">{{CurrentSvgModel.Name}}</a>
+                <ul>
+                    <li ng-repeat="tmpSub in CurrentSvgModel.Blocks">
+                        <a data-ng-click="openSvg(tmpSub)">{{tmpSub.Name}}</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- Menu Area End -->
+    <!-- Title Area -->
+    <div id="user_title"><h1>{{SubSystemName}}</h1></div>
+    <!-- Title Area End -->
+    <!-- Log IN Area -->
+    <div id="login">
+        <!--
+        <iframe id="WebserverIFrame" name="WebserverIFrame" src="/Portal/Portal.mwsl"></iframe>
+        -->
+        <div id="loginBox" class="Login_Area"></div>
+    </div>
+    <!-- Log IN Area End -->
+    <!-- Content Area -->
+    <div id="content">
+        <object id="SVG_Graphic" data-ng-controller="ctrl-model-svg" type="image/svg+xml" data=""></object>
+    </div>
+    <!-- Content Area End -->
+    <!-- Function Area -->
+    <div id="ParameterSetting" ng-show="ShowParams" ng-controller="ctrl-parameter-setting">
+        <div class="Container">
+            <h1 lang="de">Parameterliste - {{ListTyp}}</h1>
+            <h1 lang="en">Parameter List - {{ListTyp}}</h1>
+            <table class="table">
+                <thead>
+                    <tr lang="en"><th>Parameter</th><th>Value</th></tr>
+                    <tr lang="de"><th>Parameter</th><th>Wert</th></tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            <p align="right">
+                                &ensp;
+                                {{writeStatus}}
+                                <button lang="en" data-ng-click="closeParams()">
+                                    Exit
+                                </button>
+                                <button lang="de" data-ng-click="closeParams()">
+                                    Verlassen
+                                </button>
+                                <button lang="en" data-ng-click="readParams('Reload')">
+                                    Reload
+                                </button>
+                                <button lang="de" data-ng-click="readParams('Reload')">
+                                    Neu Laden
+                                </button>
+                            </p>
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody ng-repeat="param in Parameter">
+                    <tr>
+                        <td>{{param.name}}</td>
+                        <td>
+                            <label>
+                                <input ng-model="param.value" type='text' step='any' lang="en" value="{{param.value}}">
+                                <input ng-model="param.value" type='text' step='any' lang="de" value="{{param.value}}">
+                            </label>
+                            <button lang="en" data-ng-click="writeParams(param.BlockID)">
+                                Submit
+                            </button>
+                            <button lang="de" data-ng-click="writeParams(param.BlockID)">
+                                Übernehmen
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="SimulinkScope" ng-show="ShowTrace" ng-controller="ctrl-trace-handler">
+        <div class="Container">
+            <div class="ScopeContainer">
+                <div id="placeholder" class="Scope"></div>
+            </div>
+			<table class="table">
+				<p align="left">
+				    <tr>
+						<td colspan="1">
+							<label for="minY" lang="en">MinY:</label>
+							<label for="minY" lang="de">MinY:</label>
+							<input id="minY" ng-model="minY" type='number' step='any' style="width: 6em" name="enMinY" lang="en" value="" data-ng-change="onChangeMinY()" required> &nbsp;
+							<input id="minY" ng-model="minY" type='number' step='any' style="width: 6em" name="deMinY" lang="de" value="" data-ng-change="onChangeMinY()" required> &nbsp;
+						</td>
+
+						<td colspan="1">
+							<label for="maxY" lang="en">MaxY:</label>
+							<label for="maxY" lang="de">MaxY:</label>
+							<input id="maxY" ng-model="maxY" type='number' step='any' style="width: 6em" name="enMaxY" lang="en" value="" data-ng-change="onChangeMaxY()" required> &nbsp;
+							<input id="maxY" ng-model="maxY" type='number' step='any' style="width: 6em" name="deMaxY" lang="de" value="" data-ng-change="onChangeMaxY()" required> &nbsp;
+						</td>
+						
+						<td colspan="1">					
+							<label for="updateInterval" lang="en">UpdateInterval [ms]:</label>
+							<label for="updateInterval" lang="de">UpdateIntervall [ms]:</label>
+							<input id="updateInterval" ng-model="updateInterval" type='number' step='any' style="width: 6em" name="enUpdateInterval" lang="en" min="0" value="" data-ng-change="onChangeUpdateInterval()" required> &nbsp;
+							<input id="updateInterval" ng-model="updateInterval" type='number' step='any' style="width: 6em" name="deUpdateInterval" lang="de" min="0" value="" data-ng-change="onChangeUpdateInterval()" required> &nbsp;
+						</td>
+						
+						<td colspan="1">					
+							<label for="Time" lang="en">Time [s]:</label>
+							<label for="Time" lang="de">Zeit [s]:</label>
+							<input id="totalPoints" ng-model="totalPoints" type='number' step='any' style="width: 6em" name="enTotalPoints" lang="en" min="0" value="" data-ng-change="onChangeTotalPoints()" required> &nbsp;
+							<input id="totalPoints" ng-model="totalPoints" type='number' step='any' style="width: 6em" name="deTotalPoints" lang="de" min="0" value="" data-ng-change="onChangeTotalPoints()" required> &nbsp;
+						</td>
+					</tr>
+					
+                    <tr>
+						<td colspan="1" style="text-align:left">
+							<label><input type="checkbox" id="autoScale" name="autoScale" value="autoscale" onchange="setAutoScale(this)">Automatically Scale Y-axis Limits</label>
+						</td>
+						
+						<td>&nbsp;</td>
+						
+						<td colspan="3" style="text-align:right">
+							<button id="StopTrace" lang="en" name="enStopTrace" data-ng-click="stopTrace();" disabled>Stop</button> &nbsp;
+							<button id="StopTrace" lang="de" name="deStopTrace" data-ng-click="stopTrace();" disabled>Stop</button> &nbsp;
+							<button id="StartTrace" lang="en" name="enStartTrace" data-ng-click="startTrace();">Start</button> &nbsp;
+							<button id="StartTrace" lang="de" name="deStartTrace" data-ng-click="startTrace();">Start</button> &nbsp;					
+							<button id="ExitTrace" lang="en" name="enExitTrace" data-ng-click="closeTrace();">Exit</button>
+							<button id="ExitTrace" lang="de" name="deExitTrace" data-ng-click="closeTrace();">Verlassen</button>
+						</td>
+					</tr>
+				</p>
+			</table>
+        </div>
+    </div>
+    <!-- Function Area End -->
+
+</body>
+</html>

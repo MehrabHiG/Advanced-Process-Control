@@ -1,0 +1,6 @@
+#
+# loads symbol information for the given .so-file
+# parameters: Set gdb variable dso_base_addr to the base address where the .so-file has been loaded to using
+#	set $dso_base_addr=<base_addr>
+#
+add-symbol-file "LQ_ODK.debuginfo.so" $dso_base_addr+0x00058740 -s .hash $dso_base_addr+0x00000074 -s .dynsym $dso_base_addr+0x000081ec -s .dynstr $dso_base_addr+0x0001877c -s .rela.data.rel.ro $dso_base_addr+0x00049788 -s .rela.data $dso_base_addr+0x00050094 -s .rela.ctors $dso_base_addr+0x00050364 -s .rela.got $dso_base_addr+0x000503ac -s .rela.plt $dso_base_addr+0x00051ac8 -s .init $dso_base_addr+0x000548dc -s .plt $dso_base_addr+0x000548f0 -s .plt.got $dso_base_addr+0x00058670 -s .fini $dso_base_addr+0x000f3284 -s .rodata $dso_base_addr+0x000f32a0 -s .eh_frame $dso_base_addr+0x000fab80 -s .gcc_except_table $dso_base_addr+0x00119430 -s .init_array $dso_base_addr+0x0011e7b0 -s .ctors $dso_base_addr+0x0011e7c8 -s .dtors $dso_base_addr+0x0011e7d0 -s .jcr $dso_base_addr+0x0011e7d8 -s .data.rel.ro $dso_base_addr+0x0011e7e0 -s .dynamic $dso_base_addr+0x0012168c -s .got $dso_base_addr+0x00121748 -s .got.plt $dso_base_addr+0x001226b0 -s .data $dso_base_addr+0x00124580 -s .bss $dso_base_addr+0x00124da0

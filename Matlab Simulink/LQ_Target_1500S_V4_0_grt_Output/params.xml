@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V16"/>
+  <DocumentInfo>
+      <Created>2021-08-30T15:03:14.4518812Z</Created>
+      <ExportSetting>WithDefaults</ExportSetting>
+      <InstalledProducts>
+         <Product>
+            <DisplayName>Totally Integrated Automation Portal</DisplayName>
+            <DisplayVersion>V16</DisplayVersion>
+         </Product>
+         <OptionPackage>
+            <DisplayName>TIA Portal Version Control Interface</DisplayName>
+            <DisplayVersion>V16</DisplayVersion>
+         </OptionPackage>
+         <OptionPackage>
+            <DisplayName>TIA Portal Openness</DisplayName>
+            <DisplayVersion>V16</DisplayVersion>
+         </OptionPackage>
+         <Product>
+            <DisplayName>STEP 7 Professional</DisplayName>
+            <DisplayVersion>V16</DisplayVersion>
+         </Product>
+         <OptionPackage>
+            <DisplayName>STEP 7 Safety</DisplayName>
+            <DisplayVersion>V16</DisplayVersion>
+         </OptionPackage>
+         <Product>
+            <DisplayName>WinCC Professional</DisplayName>
+            <DisplayVersion>V16</DisplayVersion>
+         </Product>
+      </InstalledProducts>
+  </DocumentInfo>
+  <SW.Types.PlcStruct ID="0">
+      <AttributeList>
+         <Interface>
+            <Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v4">
+               <Section Name="None">
+                  <Member Datatype="Array[0..3] of LReal" Name="Lr">
+                     <AttributeList>
+                        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+                     </AttributeList>
+                     <Comment>
+                        <MultiLanguageText Lang="en-US">[LQ Controller 1/Gain Lr]:LQ_P.Lr</MultiLanguageText>
+                     </Comment>
+                     <Subelement Path="0">
+                        <StartValue>0.013106</StartValue>
+                     </Subelement>
+                     <Subelement Path="1">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="2">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="3">
+                        <StartValue>3.112673</StartValue>
+                     </Subelement>
+                  </Member>
+                  <Member Datatype="Array[0..9] of LReal" Name="Ly">
+                     <AttributeList>
+                        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+                     </AttributeList>
+                     <Comment>
+                        <MultiLanguageText Lang="en-US">[LQ Controller 1/Gain Ly]:LQ_P.Ly</MultiLanguageText>
+                     </Comment>
+                     <Subelement Path="0">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="1">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="2">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="3">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="4">
+                        <StartValue>0.011684</StartValue>
+                     </Subelement>
+                     <Subelement Path="5">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="6">
+                        <StartValue>3.8E-05</StartValue>
+                     </Subelement>
+                     <Subelement Path="7">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="8">
+                        <StartValue>0.0</StartValue>
+                     </Subelement>
+                     <Subelement Path="9">
+                        <StartValue>3.112673</StartValue>
+                     </Subelement>
+                  </Member>
+               </Section>
+            </Sections>
+         </Interface>
+         <IsFailsafeCompliant>false</IsFailsafeCompliant>
+         <Name>LQParams</Name>
+      </AttributeList>
+      <ObjectList>
+         <MultilingualText CompositionName="Comment" ID="1">
+            <ObjectList>
+               <MultilingualTextItem CompositionName="Items" ID="2">
+                  <AttributeList>
+                     <Culture>en-US</Culture>
+                     <Text>This block is AUTO GENERATED - DO NOT MODIFY this block!
+Created by ODK_CodeGenerator version 205.100.101.18
+at Mon August 30 17:02:50 2021
+********************************************************</Text>
+                  </AttributeList>
+               </MultilingualTextItem>
+            </ObjectList>
+         </MultilingualText>
+         <MultilingualText CompositionName="Title" ID="3">
+            <ObjectList>
+               <MultilingualTextItem CompositionName="Items" ID="4">
+                  <AttributeList>
+                     <Culture>en-US</Culture>
+                     <Text/>
+                  </AttributeList>
+               </MultilingualTextItem>
+            </ObjectList>
+         </MultilingualText>
+      </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

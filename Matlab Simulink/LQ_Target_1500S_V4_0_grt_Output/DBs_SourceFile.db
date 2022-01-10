@@ -1,0 +1,16 @@
+DATA_BLOCK "LQ_GlobalData"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION: 0.1
+NON_RETAIN
+	VAR RETAIN
+		Param : "LQParams";
+END_VAR
+BEGIN
+END_DATA_BLOCK
+DATA_BLOCK "gDB_SWV_Interface"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION: 0.1
+NON_RETAIN
+"LQWebReadWrite"
+BEGIN
+END_DATA_BLOCK

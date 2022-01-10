@@ -1,0 +1,866 @@
+/* PAGE Styles*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    Font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: normal;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-variant: normal;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    font-variant: normal;
+}
+
+
+/* LAYOUT Styles*/
+#header_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 186px;
+    padding: 0;
+    margin: 0;
+    z-index: 5;
+    background: url(data:image/gif;base64,R0lGODlhugA4ALMPAP///+34+Lvj45nW1iSmpgCZmRKgoES0tMzq6ojPz2fBwXjIyFa7u9zy8qrc3DOtrSwAAAAAugA4AAME/hDISau9OOvNu/9gKI5kaZ5oqq5s675wLM90bd94ru987//AoHBILBqPyKRyyWw6n9CodEqtWq/YrHbL7Xq/4LA2ICgLAmGyGS3GDAiFuNwwkBzkBYEdzy8cAAJ9CBWBfBN9fAkACYkThQWKEm99dG0VCohxkXdyegCcmX+PcgqXfYeZmot8BmyPkZiZkZYAA3gECwkMBpB7nb6hgJRsAAGIqKmKjHylwqq2cri6vLOWDHjEgA3AedyehIh1EsuGEuUW5HjbrwDXctkC27SfeArZE6Dd9L8Wo9ETcE6Zw4MhHSlnvfLZm2fBXb1BFPJ5knjB3y8HmZDFKZipjBxF/g5JQWSIkM+BkRT3ZSxZr91KAKn8jAvFzmKckyRXyfLGTeCjkAUQRMunsc8fnZASfZy5kySCWH0cqNSX78GBq1clvHqAh5cmogPlYL26gGmefF57SUAAVI7UnA0WpI3DYOpEPN8ovILWpwFYmAQvkPOIqBqAuHML1M0pIQBUmSlTglOVuECpv+cqDAbweKkFx3iOWmqQFwBGOXUj4624dEEfPZgDo/vVoPDh0qfpzlt2IJeCuXVUx0SoqDaeB9yKGkXqyXUj3r6B746J3G7PU+ymioud6s/mYomVUWdocM4CNsJTEZeQ2wA+2TFlfkeqqnwcA+edCkjAn/8ZCgiYUvEfAAEKaKAeasQzQX9vESigIwcKOAhpZRCTYBnyBNiff/cw5uGHIIYo4ogklmjiiSimqOKKLLbo4oswxijjjDTWaOONOOao44489ujjj0B2EQEAOw==) no-repeat;
+    border-bottom: 22px solid #999999;
+}
+
+#header_title {
+    position: absolute;
+    top: 0;
+    left: 186px;
+    height: 38px;
+    right: 0;
+    padding: 18px 0 0 15px;
+    margin: 0;
+    text-align: left;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    background: #fff;
+    border-bottom: 22px solid #999999;
+
+}
+
+#login {
+    position: absolute;
+    top: 78px;
+    left: 0;
+    height: 59px;
+    width: 186px;
+    padding: 0;
+    margin: 0;
+    z-index: 5;
+    font-size: 10px;
+    background-color: #AFB4BE;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    border-collapse: collapse;
+}
+
+#user_title {
+    position: absolute;
+    top: 78px;
+    left: 186px;
+    height: 52px;
+    right: 0;
+    padding: 7px 0 0 11px;
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: normal;
+    color: #666666;
+    vertical-align: top;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    background-color: #CCCCCC;
+    border-collapse: collapse;
+}
+
+#user_title h1 {
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: normal;
+    color: #666666;
+    vertical-align: top;
+    margin: 0;
+}
+
+#menu {
+    position: absolute;
+    top: 139px;
+    left: 0;
+    bottom: 0;
+    width: 186px;
+    padding: 4px 0 0 0;
+    margin: 0;
+    z-index: 5;
+    background-color: #D0D3DA;
+    vertical-align: top;
+}
+
+#content {
+    position: absolute;
+    top: 139px;
+    left: 186px;
+    bottom: 0;
+    right: 0;
+    padding: 0px 20px 0 20px;
+    margin: 0;
+    z-index: 5;
+    background-color: #eaeaea;
+    vertical-align: top;
+    border: 0;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+#WebserverIFrame, .hidden {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: none;
+    visibility: hidden;
+}
+
+img {
+    border: 0;
+}
+
+pre {
+    padding: 0;
+    font-weight: bold;
+}
+
+.leftFloat {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.clearFloat {
+    clear: left;
+}
+
+/********************************************/
+/*	BOX with Header Styles					*/
+#content div.container {
+    border: 1px solid #444;
+    /* min-width: 350px; */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 20px 10px 0;
+    float: left;
+}
+
+#content div.container h1 {
+    margin: -25px 0px 10px 0;
+    font-size: 16px;
+}
+
+#content div.container h1 span {
+    padding: 0 10px;
+    background-color: #eaeaea;
+}
+
+/********************************************/
+/*	MENU Styles - FIRST ORDER MENU			*/
+#menu {
+    cursor: default;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+
+#menu ul ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+
+#menu ul li {
+    list-style-image: url(data:image/gif;base64,R0lGODlhBAAHAIAAAGZmZv///yH5BAEAAAEALAAAAAAEAAcAAAIIRA4WaeyrVCgAOw==);
+    margin: 0 0 0 12px;
+    padding: 18px 0 0 6px;
+    text-indent: 0px;
+}
+
+#menu ul ul li {
+    list-style-image: url(data:image/gif;base64,R0lGODlhBAAHAIAAAGZmZv///yH5BAEAAAEALAAAAAAEAAcAAAIIRA4WaeyrVCgAOw==);
+    margin: 0 0 0 12px;
+    padding: 6px 0 0 6px;
+    text-indent: 0px;
+}
+
+#menu li#intro {
+    padding: 48px 0 0 0;
+}
+
+#menu a {
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menu a:hover, #menu a:active {
+    color: #000080;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu li.menuActive {
+    list-style-image: url(data:image/gif;base64,R0lGODlhBAAHAIABAAAAXv///yH5BAEAAAEALAAAAAAEAAcAAAIIRA4WaeyrVCgAOw==);
+}
+
+#menu li.menuActive a {
+    color: #000080;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/********************************************/
+/*	TABLE Styles							*/
+#content table.table {
+    width: 100%;
+    padding: 0;
+    margin: 5px 0 5px 0;
+    border-style: hidden;
+    border: 0px solid #FFFFFF;
+    border-spacing: 0;
+    empty-cells: show;
+    table-layout: auto;
+    border-collapse: collapse;
+    cursor: default;
+}
+
+#content table.table th,
+#content table.table td {
+    padding: 4px 10px;
+    border: 1px solid #FFFFFF;
+    vertical-align: middle;
+    min-width: 100px;
+}
+
+#content table.table thead th {
+    border-bottom: 1px double #FFFFFF;
+    border-bottom-width: thick;
+    background-color: #c3c3c3;
+}
+
+#content table.table tfoot td,
+#content table.table tfoot th {
+    border-bottom: 1px double #FFFFFF;
+    background-color: #c3c3c3;
+}
+
+#content table.table tbody tr:nth-child(odd) td {
+    background-color: #eaeaea;
+}
+
+#content table.table tbody tr:nth-child(even) td {
+    background-color: #D9D9D9;
+}
+
+#content table.table tbody tr:hover td {
+    background-color: #C1CDE9;
+    cursor: pointer;
+}
+
+#content table.table tbody tr.selected:nth-child(odd) td,
+#content table.table tbody tr:nth-child(odd) td.selected {
+    background-color: #D0F2CC;
+}
+
+#content table.table tbody tr.selected:nth-child(even) td,
+#content table.table tbody tr:nth-child(even) td.selected {
+    background-color: #B2E4AD;
+}
+
+#content table.table tbody mark {
+    padding: 0;
+    background: #f1c40f;
+}
+
+/********************************************/
+/*	DataTable Styles						*/
+.dataTables_wrapper {
+    cursor: default;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.dataTables_filter,
+.dataTables_paginate {
+    text-align: right;
+}
+
+.paginate_button {
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.paginate_button.active,
+.paginate_button.current {
+    color: #000080;
+    font-weight: bold;
+}
+
+.dataTables_filter label input {
+    margin-left: 5px;
+}
+
+table.dataTable thead {
+    cursor: pointer;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+    vertical-align: middle;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+table.dataTable thead .sorting {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAAkElEQVQoz7XQMQ5AQBCF4dWQSJxC5wwax1Cq1e7BAdxD5SL+Tq/QCM1oNiJidwox0355mXnG/DrEtIQ6azioNZQxI0ykPhTQIwhCR+BmBYtlK7kLJYwWCcJA9M4qdrZrd8pPjZWPtOqdRQy320YSV17OatFC4euts6z39GYMKRPCTKY9UnPQ6P+GtMRfGtPnBCiqhAeJPmkqAAAAAElFTkSuQmCC);
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZ0lEQVQ4y2NgGLKgquEuFxBPAGI2ahhWCsS/gDibUoO0gPgxEP8H4ttArEyuQYxAPBdqEAxPBImTY5gjEL9DM+wTENuQahAvEO9DMwiGdwAxOymGJQLxTyD+jgWDxCMZRsEoGAVoAADeemwtPcZI2wAAAABJRU5ErkJggg==);
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZUlEQVQ4y2NgGAWjYBSggaqGu5FA/BOIv2PBIPFEUgxjB+IdQPwfC94HxLykus4GiD+hGfQOiB3J8SojEE9EM2wuSJzcsFMG4ttQgx4DsRalkZENxL+AuJQaMcsGxBOAmGvopk8AVz1sLZgg0bsAAAAASUVORK5CYII=);
+}
+
+/********************************************/
+/*	FORM Styles								*/
+form fieldset {
+    margin: 5px 0 0 0;
+    padding: 10px;
+    border: 2px solid #C3C3C3;
+    border-radius: 6px;
+}
+
+form legend {
+    font-size: 1.2em;
+}
+
+form input {
+    margin: 10px 0 0 10px;
+    font-size: 12px;
+}
+
+form label {
+    padding: 0 0 0 10px;
+}
+
+/********************************************/
+/*	BREADCRUMBS Styles						*/
+#breadcrumbs {
+    border-spacing: 0;
+    margin: 0 0 20px -40px;
+    padding: 4px 0;
+}
+
+#breadcrumbs ul {
+    /*nav arrow blue*/
+    list-style-image: url(data:image/gif;base64,R0lGODlhBAAHAIABAAAAXv///yH5BAEAAAEALAAAAAAEAAcAAAIIRA4WaeyrVCgAOw==);
+    /*nav arrow white*/
+    /*
+    list-style-image: url(data:image/gif;base64,R0lGODlhBAAHAIABAP///////yH5BAEAAAEALAAAAAAEAAcAAAIIRA4WaeyrVCgAOw==);
+    */
+    margin: 0;
+}
+
+#breadcrumbs li {
+    padding: 0;
+    margin: 0 0 0 15px;
+    float: left;
+}
+
+/********************************************/
+/*	LogIn Box Styles						*/
+div#loginBox .Login_Table {
+    width: 100%;
+}
+
+div#loginBox .Login_Table_SpaceRow {
+    width: 100%;
+    height: 7px;
+}
+
+div#loginBox .Login_Table_Row {
+    width: 100%;
+}
+
+div#loginBox .Login_Table_SpaceCell {
+    width: 8px;
+}
+
+div#loginBox .Login_Table_LeftCell {
+    width: 70%;
+}
+
+div#loginBox .Login_Table_RightCell {
+    width: 30%;
+}
+
+div#loginBox #Login_Area_Form { /*used in Portal/Formlogin.mwsl*/
+    margin: 0px;
+    padding: 0px;
+}
+
+div#loginBox #Login_Area_Input_Name {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 12px;
+    height: 18px;
+    width: 110px;
+    border: 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+}
+
+div#loginBox #Login_Area_Input_Password {
+    position: absolute;
+    top: 35px;
+    left: 12px;
+    font-size: 12px;
+    height: 18px;
+    width: 110px;
+    border: 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+}
+
+div#loginBox #Login_Area_Button {
+    position: absolute;
+    top: 36px;
+    right: 0px;
+    border: 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+    text-decoration: underline;
+    font-size: 10px;
+    background-color: #AFB4BE;
+    width: 60px;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+div#loginBox #login_box_table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border: 0px solid #000000;
+    margin: 0px;
+}
+
+div#loginBox input.Login_Input {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2px;
+    border: 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+    font-size: 12px;
+    height: 18px;
+    width: 100%;
+}
+
+div#loginBox input.Login_Input_Ghost {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2px;
+    border: 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+    font-size: 12px;
+    height: 18px;
+    width: 100%;
+    color: #AFB4BE;
+}
+
+div#loginBox .Login_InvalidLogin {
+    text-align: left;
+    padding-left: 7px;
+    color: #BA0000;
+    font-size: 9px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+div#loginBox .Login_Botton_Cell {
+    padding: 0px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+div#loginBox .Login_Button {
+    border: 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+    text-decoration: underline;
+    font-size: 12px;
+    background-color: #AFB4BE;
+    white-space: nowrap;
+    color: #000080;
+}
+
+div#loginBox #loginFields {
+    width: 70%;
+    float: left;
+}
+
+div#loginBox form#loginForm input#username,
+div#loginBox form#loginForm input#password {
+    margin: 12px 0 0 7px;
+    padding: 0 0 0 2px;
+    border: 0px solid #7D82A0;
+    font-size: 12px;
+    height: 18px;
+    display: block;
+    clear: left;
+}
+
+div#loginBox form#loginForm input#password {
+    margin: 4px 0 0 7px;
+}
+
+div#loginBox #loginButtons {
+    height: 50px
+}
+
+div#loginBox #loginButton {
+    padding: 12px 0 0 0;
+    margin-left: 8px;
+}
+
+/******** logout form begins ***************/
+div#loginBox .Logout_Area {
+    position: relative;
+    font-size: 10px;
+    width: 186px;
+    min-width: 186px; /* css 2.0 */
+    height: 60px;
+    background-color: #AFB4BE;
+    margin: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    border-collapse: collapse;
+}
+
+div#loginBox #Logout_Area_Form { /*used in Portal/Formlogin.mwsl*/
+    margin: 0px;
+    padding: 0px;
+}
+
+div#loginBox #logout_user_name,
+div#loginBox #loggedInUser {
+    position: absolute;
+    top: 12px;
+    width: 162px; /*186px-12px-12px (Rand)*/
+    left: 12px;
+    font-size: 12px;
+    overflow: hidden;
+    color: #444; /* aduran1 */
+}
+
+div#loginBox #logout_area_logout_button {
+    position: absolute;
+    top: 36px;
+    right: 0px; /* aduran1 */
+    border: 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+    text-decoration: underline;
+    height: 12px;
+    font-size: 10px;
+    background-color: #AFB4BE;
+    white-space: nowrap;
+}
+
+div#loginBox .Logout_Button {
+    border: 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+    text-decoration: underline;
+    background-color: #AFB4BE;
+    white-space: nowrap;
+    font-size: 12px;
+    height: 20px;
+    color: #000080; /* aduran1 */
+}
+
+div#loginBox div#logoutButton {
+    float: right;
+    margin-top: 28px;
+    text-align: right;
+    margin-right: 6px;
+}
+
+div#loginBox input.text[type="submit"],
+div#loginBox button.text[type="submit"] {
+    border: 0px none;
+    background-color: transparent !important;
+    font-size: 12px;
+    text-align: left;
+    color: #000080;
+    display: inline-block;
+    padding: 0px;
+    text-decoration: underline;
+    min-width: 0px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+div#loginBox #logoutButton {
+    padding-top: 10px;
+}
+
+/********************************************/
+/*	Canvas Elements							*/
+canvas {
+    /*background-color: #eaeaea;*/
+}
+
+/********************************************/
+/*	Overlay Container						*/
+#overlay_div {
+    position: absolute;
+    top: 136px;
+    left: 118px;
+    bottom: 0;
+    right: 17px;
+    z-index: 1000;
+    background-color: #ffffff;
+    /*opacity: 0.6;*/
+    background: rgba(255, 255, 255, 0.6);
+    cursor: wait;
+}
+
+.overlay_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: default;
+    background: #fff;
+    opacity: 1;
+    background: rgba(255, 255, 255, 1);
+}
+
+.overlay_container button.btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+/********************************************/
+/*	CSS Sprites	- Ladeindikator				*/
+#loading_div {
+    position: absolute;
+    top: 139px;
+    left: 186px;
+    bottom: 0;
+    right: 17px;
+    z-index: 1000;
+    background-color: #ffffff;
+    opacity: 0.6;
+    cursor: wait;
+}
+
+.loading_pic {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+    margin-top: -32px;
+    margin-left: -32px;
+    background-image: url(../Images/sprites.png);
+    -webkit-animation: play .8s steps(12) infinite;
+    -moz-animation: play .8s steps(12) infinite;
+    -ms-animation: play .8s steps(12) infinite;
+    -o-animation: play .8s steps(12) infinite;
+    animation: play .8s steps(12) infinite;
+    animation-direction: reverse;
+}
+
+@-webkit-keyframes play {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: -768px 0px;
+    }
+}
+
+@-moz-keyframes play {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: -768px 0px;
+    }
+}
+
+@-ms-keyframes play {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: -768px 0px;
+    }
+}
+
+@-o-keyframes play {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: -768px 0px;
+    }
+}
+
+@keyframes play {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: -768px 0px;
+    }
+}
+
+/********************************************/
+/*	Indicator styles						*/
+.graphicSwitch {
+    border: 0;
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 1px 0;
+    padding: 0;
+}
+
+.indicatorSprite {
+    border: 0;
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 1px 0;
+    padding: 0;
+    background-image: url(../Images/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0px -64px;
+}
+
+img.indicatorSprite {
+    object-fit: none;
+    object-position: 0px -64px;
+    /*background-image: none;*/
+}
+
+.indicatorText {
+    border: 0;
+    width: 150px;
+    float: left;
+    margin: 0; /*5px 0 5px 10px;*/
+    padding: 6px 0 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#speed_gauge, #speed_bar, #speed_rot {
+    float: left;
+    margin: 10px;
+}
+
+/********************************************/
+/*	Graph Styles							*/
+.graph-container {
+    box-sizing: border-box;
+    padding: 20px 15px 15px 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+    background: linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -o-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -ms-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -moz-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+#graph {
+    width: 850px;
+    height: 450px;
+    background: #fff;
+}
+
+.pie-container {
+    box-sizing: border-box;
+    padding: 20px 15px 15px 15px;
+    margin: 15px auto 15px auto;
+    border: 1px solid #ddd;
+    background: #fff;
+    background: linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -o-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -ms-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -moz-linear-gradient(#f6f6f6 0, #fff 50px);
+    background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+#pie {
+    width: 500px;
+    height: 450px;
+    background: #fff;
+}
+
+.labelFormatter {
+    border: 1px solid grey;
+    font-size: 8pt;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid grey;
+    font-size: 8pt;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+#content input[type=button],
+#content input[type=submit] {
+    width: 150px
+}

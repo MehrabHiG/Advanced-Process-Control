@@ -1,0 +1,6 @@
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Lr' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Write' -->
+
+{
+"Parameters":[{"Name":"Lr","name":"Lr","value":":="gDB_SWV_Interface".Parameter.Lr:","plcPath":"\"gDB_SWV_Interface\".Parameter.Lr","DefaultValue":["  0.055373  4.2261e-09","4.9456e-10      3.1127"],"References":["LQ/LQ Controller 3/GainLr"]},{"Name":"Ly","name":"Ly","value":":="gDB_SWV_Interface".Parameter.Ly:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly","DefaultValue":["6.7985e-10 -5.7756e-10     0.05535  0.00036223 -2.2878e-07","1.1375e-18 -1.2704e-18  4.9452e-10  3.7774e-12      3.1127"],"References":["LQ/LQ Controller 3/GainLy"]}]}

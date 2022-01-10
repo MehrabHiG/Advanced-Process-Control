@@ -1,0 +1,18 @@
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Lr[0]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Lr[1]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Lr[2]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Lr[3]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[0]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[1]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[2]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[3]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[4]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[5]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[6]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[7]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[8]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Parameter.Ly[9]' -->
+<!-- AWP_In_Variable Name='"gDB_SWV_Interface".Write' -->
+
+{
+"Parameters":[{"name":"Lr[0]","value":":="gDB_SWV_Interface".Parameter.Lr[0]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Lr[0]","BlockID":"LQ/LQ Controller 3/GainLr"},{"name":"Lr[1]","value":":="gDB_SWV_Interface".Parameter.Lr[1]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Lr[1]","BlockID":"LQ/LQ Controller 3/GainLr"},{"name":"Lr[2]","value":":="gDB_SWV_Interface".Parameter.Lr[2]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Lr[2]","BlockID":"LQ/LQ Controller 3/GainLr"},{"name":"Lr[3]","value":":="gDB_SWV_Interface".Parameter.Lr[3]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Lr[3]","BlockID":"LQ/LQ Controller 3/GainLr"},{"name":"Ly[0]","value":":="gDB_SWV_Interface".Parameter.Ly[0]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[0]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[1]","value":":="gDB_SWV_Interface".Parameter.Ly[1]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[1]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[2]","value":":="gDB_SWV_Interface".Parameter.Ly[2]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[2]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[3]","value":":="gDB_SWV_Interface".Parameter.Ly[3]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[3]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[4]","value":":="gDB_SWV_Interface".Parameter.Ly[4]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[4]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[5]","value":":="gDB_SWV_Interface".Parameter.Ly[5]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[5]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[6]","value":":="gDB_SWV_Interface".Parameter.Ly[6]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[6]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[7]","value":":="gDB_SWV_Interface".Parameter.Ly[7]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[7]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[8]","value":":="gDB_SWV_Interface".Parameter.Ly[8]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[8]","BlockID":"LQ/LQ Controller 3/GainLy"},{"name":"Ly[9]","value":":="gDB_SWV_Interface".Parameter.Ly[9]:","plcPath":"\"gDB_SWV_Interface\".Parameter.Ly[9]","BlockID":"LQ/LQ Controller 3/GainLy"}]}
