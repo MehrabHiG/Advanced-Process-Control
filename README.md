@@ -2,7 +2,7 @@
 
 This repo contains all the source files of the Thesis: <a href="https://www.diva-portal.org/smash/get/diva2:1599802/FULLTEXT01.pdf">Development of Advanced Process Control for Controlling a Digital Twin as a Part of Virtual Commissioning.</a>
 
-Project source files includes MATLAB, SIMULINK, and SIEMENS TIA PORTAL.
+Project source files includes MATLAB, SIMULINK, and SIEMENS TIA PORTAL. You must read the thesis first to understand.
 
 The codes are free to use for academic purposes, the proper reference to the author must be given to avoid plagiarism. 
 
